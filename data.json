@@ -1,0 +1,59 @@
+[
+    {
+      "id":0,
+      "title":"Double Contact Chained Ellipses Problem",
+      "body":" few years ago, when I played around with GeoGebra, Unfortunately I cannot prove or disprove this proposition by myself. My numerical experiments on GeoGebra show that the above claim is most likely true, but I am not 100% sure. I even posted this problem on Art of Problem Solving on December 28, 2022, but no solutions are known so far.",
+      "upVotes":0,
+      "downvotes":0,
+      "author":"Kurt Godel",
+      "tag":["geometry","circle","Conic Sections"],
+      "answers":[{
+        "ans":"Older versions of the MacOS can still use the regular Unix installer available on the TUG web site:",
+        "author":"Derek Muller",
+        "upVotes":10,
+        "downVotes":1
+      }],
+      "dept":["cse","ece","it"]
+
+    },
+    {
+      "id":1,
+      "title":"How smooth/rough is a liquid surface?",
+      "upVotes":7,
+      "downvotes":0,
+      "author":"Kurt Godel",
+      "tag":["Physics","Fluid Mechanics"],
+      "answers":[{
+        "ans":"I'm currently working on a similar thing. First of all, roughness is not an absolute unit as it depends on the object to be analyzed (the smooth or rough one) and the object that intercalates on that surface. In a macro and super-simple approach we could use friction as a measure of roughness. Moving to a medium scale we can thing on a surface of a material with peaks and valleys, in that case you can measure the frequencie and the absolute depth of those peaks (statistics). But I think that you want something even more little, that is my field. In that case usually depends on what do you want to intercalate in that surface, for different elements or molecules you can assume a surface as smooth as it can not be adsorbed easily in the surface.",
+        "author":"Max Verstappen",
+        "upVotes":13,
+        "downVotes":2
+
+      }],
+      "dept":["civil","mect","eee"]
+    },{
+      "id":2,
+      "title":"How do I distinguish between e the natural log base and a variable conventionally referred to as e?",
+      "body":" How does one distinguish between the natural base, usually indicated with e and a coefficient that, due to historical reasons, is referred to as e (such as in Weibull functions for dose-response)?",
+      "upVotes":7,
+      "downvotes":0,
+      "author":"Tarik Celik",
+      "tag":["notation"],
+      "answers":[{
+        "ans":"I searched the internet for Weibul functions for dose-response and found Christian Ritz's GitHub reference for Weibull model functions, which demonstrates a technique that seems reasonable: Since e is the standard name of a parameter, it can't be used for the base of the natural exponential function. As such, exp is used instead of e⋅ to represent the exponential function, as in: few years ago, when I played around with GeoGebra, Unfortunately I cannot prove or disprove this proposition by myself. My numerical experiments on GeoGebra show that the above claim is most likely true, but I am not 100% sure. I even posted this problem on Art of Problem Solving on December 28, 2022, but no solutions are known so far",
+        "author":"Kyedae",
+        "upVotes":4,
+        "downvotes":0
+      },
+      {
+        "ans":"n printed mathematics, the natural base should be set in roman type: e, while symbols representing quantities that can vary (depending on context or units) should use the usual italic font: e.(Added in response to comment) In general, roman type should be used for all symbols in mathematics that have a fixed meaning: i,j,k for the base elements of the complex numbers and quaternions; exp,ln,cos, and so on for standard functions; lim,sup,argmin for standard operations; the differential symbol d",
+        "author":"MOnesy",
+        "upVotes":3,
+        "downvotes":10
+      }],
+      "dept":["csbs","misc","ece","eee"]
+      
+  
+   
+    }
+  ]
