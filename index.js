@@ -154,6 +154,17 @@ app.post("/signUp", (req,res) => {
     
 });
 
+app.delete("/deleteQuestion/:id", (req, res) => {
+    const { id } = req.params;
+    const index = Data.findIndex(q => q.id === parseInt(id));
+
+    if (index !== -1) {
+        Data.splice(index, 1);
+        res.json({ message: "Question deleted successfully" });
+    } else {
+        res.status(404).json({ message: "Question not found" });
+    }
+});
 
 app.post("/signIn", (req,res) => {
     const userName = req.body.name;
